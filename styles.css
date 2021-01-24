@@ -1,8 +1,44 @@
 h1 {
-    margin: 0 auto;
-    color: aquamarine;
+    color: black;
 }
 
 hr {
     color: blue;
+}
+
+body {
+    margin: 0;
+    border: 0;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 30vh;
+    text-align: center;
+    font-size: medium;
+    background-color:silver;
+    padding: 50px;
+}
+
+.coming-soon {
+    height: 50vh;
+    text-align: center;
+    padding: 50px;
+}
+
+.footer {
+    height: 20vh;
+    text-align: center;
+    font-size: medium;
+    background-color:silver;
+    padding: 50px;
 }
