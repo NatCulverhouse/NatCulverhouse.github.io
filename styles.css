@@ -4,10 +4,6 @@ h1 {
     font-family: serif;
 }
 
-hr {
-    color:navy;
-}
-
 body {
     background-color: darkgray  ;
     margin: 0;
@@ -26,7 +22,7 @@ body {
 }
 
 .header {
-    height: 30vh;
+    height: 20vh;
     text-align: center;
     font-size: medium;
     background-color: darkgray;
