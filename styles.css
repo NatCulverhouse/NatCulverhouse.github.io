@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
 h1 {
     color: black;
     font-style: italic;
@@ -5,20 +13,19 @@ h1 {
 }
 
 body {
-    background-color: darkgray  ;
+    background-color: darkgray;
     margin: 0;
     border: 0;
-
 }
 
 .container {
     display: flex;
     flex-direction: column;
     background-color: dimgray;
-    height: 100vh;
+    height: 200vh;
     max-width: 800px;
     margin: 0 auto;
-    margin-bottom: 4cm;
+    margin-bottom: 50px;
 }
 
 .header {
@@ -30,15 +37,42 @@ body {
     text-transform: capitalize;
 }
 
-.coming-soon {
-    height: 50vh;
+.projects {
     text-align: center;
     padding: 50px;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    justify-content: space-between;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border: solid 3px black;
+    align-items: center;
+    display: flex;
+    margin: 50px;
+    float: left;
+}
+
+.box1 {
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border: solid 3px black;
+    align-items: center;
+    display: flex;
+    margin: 50px;
+    float: left;
 }
 
 .footer {
-    height: 20vh;
     text-align: center;
     font-size: medium;
     background-color: dimgray;
