@@ -77,7 +77,7 @@ body {
 .footer {
     text-align: center;
     font-size: medium;
-    background-color: dimgray;
+    background-color: darkgray;
     padding: 50px;
     text-transform: capitalize;
 }
