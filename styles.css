@@ -51,9 +51,10 @@ body {
 }
 
 .box {
+    background: none;
     height: 150px;
     width: 250px;
-    background-color: tomato;
+    background-color: gray;
     color: #fff;
     padding: 10px;
     border: solid 3px black;
@@ -63,15 +64,8 @@ body {
     
 }
 
-.box1 {
-    height: 150px;
-    width: 250px;
-    background-color: tomato;
-    color: #fff;
-    padding: 10px;
-    border: solid 3px black;
-    align-items: center;
-    margin: 20px;
+.box :hover{
+    background: black;
 }
 
 .footer {
