@@ -76,6 +76,27 @@ body {
     text-transform: capitalize;
 }
 
+.home-button {
+ text-align: center;
+}
+
+.home-button a {
+	float: none;
+	display: block;
+	color: cornflowerblue;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	font-size: x-large;
+	text-transform: uppercase;
+}
+
+.home-button a:hover {
+	background-color: lightgrey;
+	color: dimgray;
+}
+
 @media (min-width: 800px) {
     .boxes {
         display: flex;
